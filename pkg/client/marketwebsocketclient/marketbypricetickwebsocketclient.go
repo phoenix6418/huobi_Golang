@@ -33,7 +33,7 @@ func (p *MarketByPriceTickWebSocketClient) Request(symbol string, level int, cli
 
 	p.WebSocketClientBase.Send(req)
 
-	applogger.Info("WebSocket requested, topic=%s, clientId=%s", topic, clientId)
+	applogger.Info("WebSocket requested, topic=%s, level: %v, clientId=%s", topic, level, clientId)
 }
 
 // Subscribe incremental update of Market By Price order book, level: 5, 20, 150

@@ -8,13 +8,13 @@ import (
 )
 
 func RunAllExamples() {
-	getCandlestick()
-	getLast24hCandlestickAskBid()
-	getLast24hCandlesticks()
-	getDepth()
-	getLatestTrade()
-	getHistoricalTrade()
-	getLast24hCandlestick()
+	//getCandlestick()
+	//getLast24hCandlestickAskBid()
+	//getLast24hCandlesticks()
+	//getDepth()
+	//getLatestTrade()
+	//getHistoricalTrade()
+	//getLast24hCandlestick()
 }
 
 //  Get the candlestick/kline for the btcusdt. The specified data number is 10 .

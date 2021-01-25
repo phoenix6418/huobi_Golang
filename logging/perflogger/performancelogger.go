@@ -61,7 +61,7 @@ func (p *PerformanceLogger) Start() {
 // Stop timer and output log
 func (p *PerformanceLogger) StopAndLog(method string, url string) {
 	if logEnabled {
-		duration := time.Since(p.start).Milliseconds()
+		duration := time.Since(p.start).Seconds() / 1000
 
 		// Strip parameters
 		i := strings.IndexByte(url, '?')

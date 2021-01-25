@@ -9,14 +9,14 @@ import (
 )
 
 func RunAllExamples() {
-	reqAndSubscribeCandlestick()
-	reqAndSubscribeDepth()
-	reqAndSubscribe150LevelMarketByPrice()
+	//reqAndSubscribeCandlestick()
+	//reqAndSubscribeDepth()
+	//reqAndSubscribe150LevelMarketByPrice()
 	subscribeFullMarketByPrice()
-	reqAndSubscribeMarketByPriceTick()
-	subscribeBBO()
-	reqAndSubscribeTrade()
-	reqAndSubscribeLast24hCandlestick()
+	//reqAndSubscribeMarketByPriceTick()
+	//subscribeBBO()
+	//reqAndSubscribeTrade()
+	//reqAndSubscribeLast24hCandlestick()
 }
 
 func reqAndSubscribeCandlestick() {
