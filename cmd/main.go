@@ -36,20 +36,20 @@ func runApiTest() {
 
 // Run all examples
 func runAll() {
-	//commonclientexample.RunAllExamples()
-	//accountclientexample.RunAllExamples()
-	//orderclientexample.RunAllExamples()
-	//algoorderclientexample.RunAllExamples()
-	//marketclientexample.RunAllExamples()
-	//isolatedmarginclientexample.RunAllExamples()
-	//crossmarginclientexample.RunAllExamples()
-	//walletclientexample.RunAllExamples()
-	//subuserclientexample.RunAllExamples()
-	//stablecoinclientexample.RunAllExamples()
-	//etfclientexample.RunAllExamples()
-	//marketwebsocketclientexample.RunAllExamples()
-	//accountwebsocketclientexample.RunAllExamples()
-	//orderwebsocketclientexample.RunAllExamples()
+	commonclientexample.RunAllExamples()
+	accountclientexample.RunAllExamples()
+	orderclientexample.RunAllExamples()
+	algoorderclientexample.RunAllExamples()
+	marketclientexample.RunAllExamples()
+	isolatedmarginclientexample.RunAllExamples()
+	crossmarginclientexample.RunAllExamples()
+	walletclientexample.RunAllExamples()
+	subuserclientexample.RunAllExamples()
+	stablecoinclientexample.RunAllExamples()
+	etfclientexample.RunAllExamples()
+	marketwebsocketclientexample.RunAllExamples()
+	accountwebsocketclientexample.RunAllExamples()
+	orderwebsocketclientexample.RunAllExamples()
 }
 
 // Run performance test
